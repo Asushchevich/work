@@ -44,43 +44,66 @@
 
 //второй урок
 
-if (1) {
-    console.log('OK!');
-} else {
-    console.log('Error');
-}
-
-
-
-// //разветвление
-
-// if (num < 49){
-//     console.log('Error');
-// } else if (num > 100) {
-//     console.log(' A lot of');
-// } else {
+// if (1) {
 //     console.log('OK!');
+// } else {
+//     console.log('Error');
 // }
 
-// //тернарный оператор
 
-// (num === 50) ? console.log('OK!') : console.log('Error'); 
 
-const num = 501;
+// // //разветвление
 
-// конструкция только для строгово сравнения 
-switch (num) {
-    case 49:
-        console.log('false');
-        break;
-    case 100:
-        console.log('false');
-        break;
-    case 50:
-        console.log('try');
-        break;
-    default:
-        console.log('not today');
-        break;
+// // if (num < 49){
+// //     console.log('Error');
+// // } else if (num > 100) {
+// //     console.log(' A lot of');
+// // } else {
+// //     console.log('OK!');
+// // }
 
+// // //тернарный оператор
+
+// // (num === 50) ? console.log('OK!') : console.log('Error'); 
+
+// const num = 50;
+
+// // конструкция только для строгово сравнения 
+// switch (num) {
+//     case 49:
+//         console.log('false');
+//         break;
+//     case 100:
+//         console.log('false');
+//         break;
+//     case 50:
+//         console.log('try');
+//         break;
+//     default:
+//         console.log('not today');
+//         break;
+
+// }
+
+// Третий урок
+
+let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+for (let i = 1; i < 8; i++){
+    if (i === 6){
+        // break;
+        continue;
+    }
+    console.log(i);
 }
