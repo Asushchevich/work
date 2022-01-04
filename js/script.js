@@ -185,9 +185,39 @@
 
 // logger();
 
-//стрелочная функция
+// стрелочная функция
 // const calc = (a, b) => {
 //     return a + b;
 // };
 
 // console.log(calc(5,9));
+
+// // методы
+// const str = "teSt";
+
+// // console.log(str[2] = '2');
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str);
+
+// //поиск по строке
+// const fruit = "Some Fruit";
+// console.log(fruit.indexOf("Fruit"))
+
+// //вырезание от и до
+// const logg = "Hello World";
+// console.log(logg.slice(6, 11));
+
+// console.log(logg.substring(6, 11));
+
+// //округление
+// const num = 12.2;
+// console.log(Math.round(num));
+
+// //перевод в другую систему исчесления
+// const test = "12.2px";
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
+
+
+
