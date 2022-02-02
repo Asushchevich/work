@@ -154,7 +154,7 @@
 
 // function showFirstMassage(text) {
 //     console.log(text);
-//     let num = 10;
+//      
 //     console.log(num);
 // }
 
@@ -366,3 +366,35 @@
 // }
 // console.log(counter);
 
+//массивы и псевдомассивы
+
+// const arr = [1, 12, 3, 24, 45];
+// arr.sort(compaireNum);
+// // arr[99] = 0;
+// // console.log(arr.length);
+//  console.log(arr); 
+//  function compaireNum(a,b) { //функция для сортировки как числа
+//      return a-b;
+//  }
+
+// arr.forEach(function(item, i, arr) {
+//     console.log(`${i}: ${item} внутри массива ${arr}`)
+// });
+
+//arr.pop();
+// arr.push(6);
+
+// console.log(arr);
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// for (let value of arr) {
+//     console.log(value);
+// }
+
+// const str = prompt("", ""); //создание строки   
+// const product = str.split(", "); // перевод из строки в массив
+// product.sort();// сортировка
+// console.log(product.join('; '));// перевод из массива в строку
