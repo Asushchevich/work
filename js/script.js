@@ -154,7 +154,7 @@
 
 // function showFirstMassage(text) {
 //     console.log(text);
-//      
+//     let num = 10;  
 //     console.log(num);
 // }
 
@@ -374,8 +374,8 @@
 // // console.log(arr.length);
 //  console.log(arr); 
 //  function compaireNum(a,b) { //функция для сортировки как числа
-//      return a-b;
-//  }
+//    return a-b;
+//}
 
 // arr.forEach(function(item, i, arr) {
 //     console.log(`${i}: ${item} внутри массива ${arr}`)
@@ -398,3 +398,108 @@
 // const product = str.split(", "); // перевод из строки в массив
 // product.sort();// сортировка
 // console.log(product.join('; '));// перевод из массива в строку
+
+
+
+//Передача по ссылке или по значению, spread оператор 
+
+
+// let a = 5,
+//     b = a;
+
+// b = b + 5;
+
+// console.log(b);
+// console.log(a);
+
+// const obj = {
+//     a: 5,
+//     b: 1
+// };
+
+// const copy = obj; //ссылка
+
+// copy.a = 10;
+// console.log(copy);
+// console.log(obj);
+
+// function copy(mainObj) { // копирование
+//     let objCopy = {}
+
+//     let key;
+//     for (key in mainObj) {
+//         objCopy[key] = mainObj[key];
+//     }
+
+//     return objCopy;
+// }
+
+// const numbers = {
+//     a:2,
+//     b:5,
+//     c:{
+//         x:7,
+//         y:4
+//     }
+// };
+
+// const newNumbers = copy(numbers);
+
+// newNumbers.a = 10;
+// newNumbers.c.x = 2;
+
+// console.log(newNumbers);
+// console.log(numbers)
+
+// const add = {
+//     d: 17,
+//     e: 20
+// };
+
+// const clone = (Object.assign({}, add));
+
+// clone.d = 20;
+
+// console.log(add);
+// console.log(clone);
+
+// const oldArray = ['a', 'b', 'c'];
+// const newArray = oldArray.slice(); //копирование массива
+
+// newArray[1] = 'sdrfgtyhujikolp';
+// console.log(oldArray);
+// console.log(newArray);
+
+// const video = ['youtube', 'vimeo', 'rutube'],
+//     blogs = ['wordpress', 'livejornal', 'bloger'],
+//     internet = [...video, ...blogs, 'vk', 'facebook']; // синтаксис оператора разворота (spread)
+
+//     console.log(internet);
+
+// более сложный пример использования метода spread
+// function log(a, b, c) {
+//     console.log(`a = ${a}`);
+//     console.log(`b = ${b}`);
+//     console.log(`c = ${c}`);
+// }
+
+// const num = [2, 5, 7];
+
+// log(...num);
+    
+
+
+// const array = ["a", "b"];
+
+// const newAarray = [...array]; //в переменной newAarray лежит копия переменной array
+
+// const q = {
+//     one: 1,
+//     two: 2
+// };
+
+// let newObj = {...q};
+// newObj = {one: 2, two: 1251325};
+    
+// console.log(newObj);
+// console.log(q);
