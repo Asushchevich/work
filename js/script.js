@@ -503,3 +503,35 @@
     
 // console.log(newObj);
 // console.log(q);
+
+
+//OOP basics, prototypal inheritance
+
+
+// let str = "some";
+// let strObj = new String(str);
+
+// console.log(typeof(str));
+// console.log(typeof(strObj));
+
+// console.dir([1,2,3]);
+
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function() {
+//         console.log("hello");
+//     }
+// };
+
+//const jonh  = Object.create(soldier);// создаём новый оъект jonh который будет прототипно наследоваться от soldier
+// const jonh = {
+//     health: 100
+// };
+
+// jonh.__proto__ = soldier; // старый тип прототипирования
+
+//Object.setPrototypeOf(jonh, soldier); //новый тип протопитирования
+
+//console.log(jonh.armor);
+// jonh.sayHello();
